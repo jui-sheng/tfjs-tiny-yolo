@@ -17,7 +17,5 @@
   "scripts": {
     "build": "rm -rf ./dist && parcel build src/index.html --public-url='/tfjs-yolo-tiny-demo/'",
     "serve": "parcel src/index.html"
-  },"browserslist": [
-    "last 1 Chrome version"
-  ]
+  }
 }

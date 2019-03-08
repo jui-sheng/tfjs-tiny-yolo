@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+<a href='https://modeldepot.io/mikeshi/tiny-yolo-in-javascript'> <img src='https://img.shields.io/badge/ModelDepot-Pre--trained_Model-3d9aff.svg'/> </a>
 
-You can use the [editor on GitHub](https://github.com/jui-sheng/tfjs_yolo/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# In-Browser ML-Powered Object Detection Demo
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Use YOLO deep learning model to detect objects locally in your browser
+(no servers required).
 
-### Markdown
+Want to use object detection in your project?
+Check out [the NPM package here](https://github.com/ModelDepot/tfjs-yolo-tiny).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Demo
 
-```markdown
-Syntax highlighted code block
+[Check out the Live Demo](https://modeldepot.github.io/tfjs-yolo-tiny-demo/)
 
-# Header 1
-## Header 2
-### Header 3
+(You can only get so far with 1 FPS)
 
-- Bulleted
-- List
+![yolo person detection](https://github.com/ModelDepot/tfjs-yolo-tiny/raw/master/assets/demo.gif)
 
-1. Numbered
-2. List
+# Get Started
 
-**Bold** and _Italic_ and `Code` text
+Looking for the NPM package repo to use object detection in your own app?
+Find it [here](https://github.com/ModelDepot/tfjs-yolo-tiny).
 
-[Link](url) and ![Image](src)
-```
+## Install Dependencies
+    yarn
+    
+### node 10
+    yarn --ignore-engines 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Serve Demo
+    yarn serve
 
-### Jekyll Themes
+# Performance
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jui-sheng/tfjs_yolo/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+I get around 1 FPS on my Macbook 13" mid-2014 using Chrome. Your mileage may vary. PRs to help perf/bug fixes are certainly welcome at [tfjs-yolo-tiny](https://github.com/ModelDepot/tfjs-yolo-tiny).
